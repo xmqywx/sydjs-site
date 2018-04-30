@@ -42,7 +42,7 @@ keystone.init({
 	'user model': 'User',
 	'cookie secret': process.env.COOKIE_SECRET || 'sydjs',
 
-	'mandrill api key': process.env.MANDRILL_KEY,
+	// 'mandrill api key': process.env.MANDRILL_KEY,
 
 	'google api key': process.env.GOOGLE_BROWSER_KEY,
 	'google server api key': process.env.GOOGLE_SERVER_KEY,
@@ -51,6 +51,8 @@ keystone.init({
 	'ga domain': process.env.GA_DOMAIN,
 
 	'cloudinary secure': true,
+
+    'cloudinary config': 'cloudinary://333779167276662:_8jbSi9FB3sWYrfimcl8VKh34rI@keystone-demo',
 
 	'basedir': __dirname
 
